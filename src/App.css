@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.btn{
+  margin: 10px;
+  padding: 5px;
+  background-color: aqua;
+}
+.btn1{
+  margin: 10px;
+  padding: 5px;
+  background-color: red;
+
+}
