@@ -3,6 +3,10 @@ import {Routes,Route} from 'react-router-dom';
 import { useState } from 'react';
 import Navbar from './component/Navbar';
 import ColorPicker from './component/ColorPicker';
+import ToDoList from './component/ToDoList';
+import FormSubmit from './component/FormSubmit';
+import LocalStorage from './component/LocalStorage';
+import SignIn from './component/SignIn';
 
 
 function App() {
@@ -48,9 +52,13 @@ function App() {
      <Routes>
   
     <Route path='/colorpicker' element={<ColorPicker/>}/>
-  </Routes>
+    <Route path = '/todolist' element={<ToDoList/>} />
+    <Route path = '/formsubmit' element={<FormSubmit/>} />
+    <Route path='/localstorage' element={<LocalStorage/>}/>
+    <Route path='/signin' element={<SignIn/>}/>
+      </Routes>
      
-     <div className='bg-red-300 block'>
+     <div className='bg-red-300  hidden'>
 
      <h1>HELLO THIS IS PRACTICE</h1>
      <h1>Yes, it is also practice</h1>

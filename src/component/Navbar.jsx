@@ -11,7 +11,10 @@ const Navbar = () => {
             
             
             <li className='text-white text-2xl'>About</li>
-            <li className='text-white text-2xl'><a href="">Visit</a></li>
+            <li className='text-white text-2xl'><Link to='/todolist' className='nav-link active'>To-do-List</Link></li>
+            <li className='text-white text-2xl'><Link to='/localstorage' className='nav-link active'>LocalStorage</Link></li>
+            <li className='text-white text-2xl'><Link to='/formsubmit' className='nav-link active'>Form Submit</Link></li>
+            <li className='text-white text-2xl'><Link to='/signin' className='nav-link active'>Sign In</Link></li>
         </ul>
     </div>
   )
